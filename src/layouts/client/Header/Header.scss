@@ -1,0 +1,466 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    background-color: #00ab9f;
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+
+.welcome-section {
+    background-color: #fafafa;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: Quicksand, sans-serif;
+    color: #00ab9f;
+    font-weight: 500;
+    justify-content: center;
+    padding: 8px 70px;
+}
+
+.welcome-content {
+    display: flex;
+    width: 100%;
+    max-width: 1146px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.welcome-message {
+    display: flex;
+    gap: 13px;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+
+.welcome-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.welcome-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    align-self: stretch;
+    margin: auto 0;
+}
+
+.order-link {
+    align-self: stretch;
+    flex-basis: auto;
+    margin: auto 0;
+}
+
+.contact-info {
+    margin-top: 5px;
+    line-height: 1;
+}
+
+.contact-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    align-self: start;
+}
+
+.email {
+    flex-basis: auto;
+}
+
+.language-currency {
+    align-self: start;
+    display: flex;
+    gap: 22px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.language {
+    margin: auto 0;
+}
+
+.currency-wrapper {
+    display: flex;
+    gap: 11px;
+}
+
+.currency-divider {
+    background-color: #00ab9f;
+    display: flex;
+    width: 1px;
+    height: 21px;
+}
+
+.currency {
+    margin: auto 0;
+}
+
+.main-nav {
+    align-self: center;
+    margin-top: 18px;
+    width: 100%;
+    max-width: 1161px;
+}
+
+.nav-content {
+    gap: 20px;
+    display: flex;
+}
+
+.logo-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 21%;
+    margin-left: 0;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font: 600 17px/1 Quicksand, sans-serif;
+}
+
+.logo {
+    aspect-ratio: 2.74;
+    object-fit: contain;
+    object-position: center;
+    width: 208px;
+    max-width: 100%;
+}
+
+.home-link {
+    align-self: end;
+    margin-top: 21px;
+    margin-right: 40px;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 79%;
+    margin-left: 20px;
+}
+
+.menu-wrapper {
+    display: flex;
+    margin-top: 17px;
+    width: 100%;
+    flex-direction: column;
+    font-family: Quicksand, sans-serif;
+}
+
+.search-bar {
+    display: flex;
+    width: 860px;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category-dropdown {
+    display: flex;
+    color: #000;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+.dropdown-toggle {
+    background-color: #fff;
+    display: flex;
+    gap: 3px;
+    padding: 15px 28px;
+    border: 1px solid #918e8e;
+}
+
+.dropdown-icon {
+    aspect-ratio: 1.38;
+    object-fit: contain;
+    object-position: center;
+    width: 11px;
+    align-self: start;
+    margin-top: 4px;
+}
+
+.search-input {
+    background-color: #fefefe;
+    display: flex;
+    gap: 40px 100px;
+    flex-grow: 1;
+    flex-basis: auto;
+    padding: 0 1px 0 27px;
+    border: 1px solid #a4a2a2;
+}
+
+.search-placeholder {
+    margin: auto 0;
+}
+
+.search-button {
+    background-color: #ffd900;
+    display: flex;
+    width: 46px;
+    height: 45px;
+    border: 1px solid rgba(0, 10, 74, 0.165);
+}
+
+.user-actions {
+    display: flex;
+    align-items: start;
+    gap: 23px;
+    color: #fff;
+    font-weight: 500;
+    margin: auto 0;
+}
+
+.action-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-icon {
+    aspect-ratio: 1.04;
+    object-fit: contain;
+    object-position: center;
+    width: 23px;
+    align-self: center;
+}
+
+.main-menu {
+    align-self: end;
+    display: flex;
+    margin-top: 32px;
+    width: 852px;
+    max-width: 99%;
+    align-items: start;
+    gap: 20px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.shop-link {
+    display: flex;
+    gap: 3px;
+    line-height: 1;
+    position: relative;
+    /* Để dropdown hiển thị theo shop-link */
+    display: inline-block;
+    cursor: pointer;
+}
+
+.shop-text {
+    flex-grow: 1;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.shop-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: start;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-links {
+    display: flex;
+    gap: 40px 51px;
+    line-height: 1;
+}
+
+.menu-item {
+    text-decoration: none;
+    /* Loại bỏ dấu gạch chân */
+    color: #333;
+    /* Màu chữ mặc định */
+    transition: color 0.3s ease;
+    /* Hiệu ứng chuyển màu khi hover */
+
+    /* Khi hover */
+    &:hover {
+        text-decoration: none;
+        /* Không có gạch chân khi hover */
+        color: #007BFF;
+        /* Màu chữ thay đổi khi hover */
+    }
+}
+
+.contact-link {
+    font-weight: 400;
+}
+
+.main-menu {
+    align-self: stretch;
+    /* Căn chỉnh chiều cao */
+    display: flex;
+    /* Sử dụng flexbox */
+    margin-top: 32px;
+    width: 100%;
+    /* Chiếm toàn bộ chiều rộng */
+    max-width: 99%;
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    gap: 10px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    justify-content: space-between;
+    /* Tạo khoảng cách giữa menu và promo */
+}
+
+.promo-banner {
+    display: flex;
+    /* Sử dụng flexbox */
+    gap: 5px;
+    /* Khoảng cách giữa icon và text */
+    font-size: 12px;
+    /* Kích thước chữ */
+    font-weight: 400;
+    /* Trọng số chữ */
+    margin-left: 20px;
+    /* Khoảng cách giữa menu và promo banner */
+}
+
+.promo-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+}
+
+.promo-text {
+    flex-basis: auto;
+    margin: auto 0;
+    /* Căn giữa theo chiều dọc */
+}
+
+
+.shop-page {
+    margin: 30px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    /* Vị trí menu dưới phần shop-link */
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    min-width: 160px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    z-index: 1000;
+}
+
+/* Thiết lập cho các phần tử trong dropdown */
+.dropdown-menu li {
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f0f0f0;
+    /* Hiệu ứng hover */
+}
+
+/* Hiển thị menu khi trỏ vào shop-link */
+.shop-link:hover .dropdown-menu {
+    display: block;
+}
+
+//responsive
+@media (max-width: 991px) {
+    .top-bar {
+        max-width: 100%;
+    }
+
+    .welcome-section {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .welcome-content {
+        max-width: 100%;
+    }
+
+    .contact-info {
+        white-space: initial;
+    }
+
+    .language-currency {
+        white-space: initial;
+    }
+
+    .currency-wrapper {
+        white-space: initial;
+    }
+
+    .main-nav {
+        max-width: 100%;
+    }
+
+    .nav-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .logo-column {
+        width: 100%;
+    }
+
+    .logo-wrapper {
+        margin-top: 28px;
+    }
+
+    .menu-column {
+        width: 100%;
+    }
+
+    .menu-wrapper {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .dropdown-toggle {
+        padding-right: 20px;
+    }
+
+    .search-input {
+        padding-left: 20px;
+    }
+}
