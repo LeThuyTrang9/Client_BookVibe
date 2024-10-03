@@ -3,12 +3,12 @@ import "./BookDetail.scss";
 
 function BlogDetail() {
 	return (
-		<>
+		<>p
 			<Helmet>
 				<title>Chi tiết sản phẩm</title>
 			</Helmet>
 
-			Chi tiết sản phẩm
+			sản phẩm detail
 		</>
 	);
 }
