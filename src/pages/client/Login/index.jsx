@@ -15,20 +15,14 @@ function Login() {
         <title>Trang chủ</title>
       </Helmet>
 
-      <div>
+      <div className="container">
         <div className="tab">
-          <button
-            className={`tablinks ${activeTab === "register" ? "active" : ""}`}
-            onClick={() => handleTabClick("register")}
-          >
-            Đăng ký
-          </button>
-          <button
-            className={`tablinks ${activeTab === "login" ? "active" : ""}`}
-            onClick={() => handleTabClick("login")}
-          >
-            Đăng nhập
-          </button>
+            <button className={`tablinks ${activeTab === "login" ? "active" : ""}`} onClick={() => handleTabClick("login")}>
+                Đăng nhập
+            </button>
+            <button className={`tablinks ${activeTab === "register" ? "active" : ""}`} onClick={() => handleTabClick("register")}>
+                Đăng ký
+            </button>
         </div>
         <div id="login" className={`tabcontent ${activeTab === "login" ? "active" : ""}`}>
           <div className="login-form">
