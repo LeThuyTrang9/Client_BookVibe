@@ -1,0 +1,125 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  .tab > button {
+    background-color: inherit;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  .tab > button:hover {
+    background-color: #c92127;
+  }
+  
+  .tab > button.active {
+    background-color: #c92127;
+  }
+  
+  .tabcontent {
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .tabcontent > .login-form,
+  .tabcontent > .register-form {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+  }
+  
+  .tabcontent.active > .login-form,
+  .tabcontent.active > .register-form {
+    display: flex;
+  }
+  
+  form {
+    width: 450px;
+  }
+  
+  form > p {
+    margin: 20px 0 15px;
+  }
+  
+  form > h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  form > .input-box {
+    width: 100%;
+    height: 10px;
+    margin: 10px 0;
+    border-radius: 30px;
+  }
+  
+  form > .input-box input {
+    width: 100%;
+    height: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(165, 158, 158, 0.5);
+    border-radius: 30px;
+    font-size: 13px;
+    color: #fff;
+    padding: 10px 15px 10px 10px;
+    margin: -30px 0 15px;
+  }
+  
+  form > .input-box input::placeholder {
+    color: #ccc;
+  }
+  
+  form > .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 25px 0 15px;
+  }
+  
+  form > .remember > label > input {
+    accent-color: #fff;
+    margin-right: 5px;
+  }
+  
+  form > .remember > a {
+    color: #c92127;
+    text-decoration: none;
+  }
+  
+  form > .remember > a:hover {
+    text-decoration: underline;
+  }
+  
+  form > .button-login {
+    margin: 30px 0 15px;
+  }
+  
+  form > .button-login > .btn {
+    width: 30%;
+    height: 36px;
+    float: left;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  form > .button-login > .btn-gg {
+    width: 50%;
+    height: 36px;
+    float: right;
+    background-color: #c92127;
+    color: #fff;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }

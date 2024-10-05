@@ -10,6 +10,7 @@ import AccountDashBoard from "../pages/client/AccountDashBoard";
 import PaymentCheck from "../pages/client/PaymentPage/PaymentCheck";
 import PaymentSuccess from "../pages/client/PaymentPage/PaymentSuccess";
 import NotFound from "../pages/client/NotFound";
+import Login from "../pages/client/Login";
 
 export const ClientRoutes = [
 	{
@@ -19,6 +20,10 @@ export const ClientRoutes = [
 			{
 				path: "/",
 				element: <Home />,
+			},
+			{
+				path: "/login",
+				element: <Login />,
 			},
 			{
 				path: "/account-dashboard",
